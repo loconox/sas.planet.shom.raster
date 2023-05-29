@@ -1,0 +1,11 @@
+﻿[PARAMS]
+pnum=
+GUID={AB8A8685-AEC6-4E16-80DA-DC4AC37E4742}
+asLayer=0
+name=Shom Raster
+ParentSubMenu=Marine maps
+NameInCache=Shom_Raster
+DefURLBase=https://services.data.shom.fr/clevisu/wmts?layer=RASTER_MARINE_3857_WMTS&style=normal&tilematrixset=3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng
+Ext=.png
+ContentType=image/png
+EPSG=3857

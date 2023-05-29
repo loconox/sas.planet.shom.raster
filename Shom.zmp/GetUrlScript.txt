@@ -1,0 +1,7 @@
+begin
+ ResultURL:=GetURLBase+'&TileMatrix='+inttostr(GetZ - 1)+'&TileCol='+inttostr(GetX)+'&TileRow='+inttostr(GetY);
+ RequestHead:='Referer: https://data.shom.fr' + #13#10 +
+  'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0' + #13#10 +
+  'Origin: https://data.shom.fr' + #13#10 +
+  'Accept: image/png';
+end.
